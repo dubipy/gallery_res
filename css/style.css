@@ -1,1 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #efefef;
+}/*# sourceMappingURL=style.css.map */
