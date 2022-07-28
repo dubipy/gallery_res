@@ -70,6 +70,38 @@ header ul li a span {
   transform-origin: left center;
 }
 
+@media screen and (max-width: 1199px) {
+  header {
+    width: 100%;
+    height: 80px;
+    position: relative;
+  }
+  header h1 {
+    font: bold 24px/1 "orbitron";
+    transform: translateY(-50%);
+    left: 50px;
+    margin-top: 5px;
+  }
+  header h1::before, header h1::after {
+    display: none;
+  }
+  header ul {
+    left: auto;
+    right: 50px;
+    bottom: 25px;
+  }
+}
+@media screen and (max-width: 469px) {
+  header h1 {
+    font-size: 20px;
+  }
+  header ul li {
+    margin-left: 3px;
+  }
+  header ul li a span {
+    display: none;
+  }
+}
 main {
   margin-left: 400px;
   min-height: 600px;
@@ -103,8 +135,7 @@ main ul li a {
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
 }
 main ul li.on a {
-  background: linear-gradient(45deg, #748ffc, #66d9e8);
-  color: #fff;
+  background: linear-gradient(45deg, #748ffc);
   box-shadow: 0px 5px 20px rgba(0, 255, 255, 0.5);
 }
 main section {
@@ -141,4 +172,30 @@ main section article .inner p {
   font: 10px/1.2 "arial";
   color: #777;
   margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1199px) {
+  main {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 899px) {
+  main section article {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 799px) {
+  main section article {
+    width: 33.333%;
+  }
+}
+@media screen and (max-width: 699px) {
+  main section article {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 469px) {
+  main section article {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */

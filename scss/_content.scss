@@ -33,8 +33,7 @@ main {
             }
 
             &.on a {
-                background: linear-gradient(45deg, #748ffc, #66d9e8);
-                color: #fff; 
+                background: linear-gradient(45deg, #748ffc, );
                 box-shadow: 0px 5px 20px rgba(0, 255, 255, 0.5);
             }
         }
@@ -80,5 +79,35 @@ main {
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width: $web) {
+    main {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: $tabletB) {
+    main section article {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: $tabletM) {
+    main section article {
+        width: 33.333%;
+    }
+}
+
+@media screen and (max-width: $tabletS) {
+    main section article {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: $mobile) {
+    main section article {
+        width: 100%;
     }
 }

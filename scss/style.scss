@@ -2,6 +2,12 @@
 @import "reset";
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
+$web: 1199px;
+$tabletB: 899px;
+$tabletM: 799px;
+$tabletS: 699px;
+$mobile: 469px;
+
 //파일 임포트
 @import "header";
 @import "content";
